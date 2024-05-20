@@ -1,15 +1,10 @@
 import React from "react";
-import Link from "next/link";
-
-const RootPage = () => {
+import StudentInfo from "./student-info";
+export default function Page() {
   return (
-    <div>
-      <h1>CPRG 306: Web Development 2 - Assignments</h1>
-      <p>
-        <Link href="/week-2">week-2</Link>
-      </p>
-    </div>
+    <main>
+      <h1>Shopping List</h1>
+      <StudentInfo /> {/* Rendering the StudentInfo component */}
+    </main>
   );
-};
-
-export default RootPage;
+}
