@@ -7,7 +7,7 @@ const StudentInfo = () => {
 
       <p>
         <Link href="https://github.com/ChintanMadaar/CPRG306-WebDevelopment.git">
-          Link to my Github
+          https://github.com
         </Link>
       </p>
     </div>
