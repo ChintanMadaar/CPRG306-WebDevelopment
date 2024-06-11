@@ -12,7 +12,7 @@ const RootPage = () => {
         <br />
         <Link href="/week-4">week-4</Link>
         <br />
-        <Link href="/week-4">week-5</Link>
+        <Link href="/week-5">week-5</Link>
       </p>
     </div>
   );
