@@ -31,18 +31,15 @@ export default function MealIdeas({ ingredient }) {
   }, [ingredient]);
 
   return (
-    <div className="">
-      <h2 className="text-xl font-bold mb-4 text-white -ml-40">Meal Ideas</h2>
-      <h4 className="text-xl font-bold mb-4 text-white -ml-40">{message}</h4>
-      <ul>
+    <div className="p-4">
+      <h2 className="text-2xl font-bold mb-4 text-white">Meal Ideas</h2>
+      <h4 className="text-lg font-semibold mb-4 text-white">{message}</h4>
+      <ul className=" mr-12 ">
         {meals.map((meal) => (
-          <li key={meal.idMeal} className="mb-2 -ml-40">
-            <p className="text-white">{meal.strMeal}</p>
-            <img
-              src={meal.strMealThumb}
-              alt={meal.strMeal}
-              className="w-16 h-16 rounded"
-            />
+          <li key={meal.idMeal} className="mb-6">
+            <p className="text-black font-bold text-lg border-4 bg-slate-400 border-slate-400">
+              {meal.strMeal}
+            </p>
           </li>
         ))}
       </ul>
