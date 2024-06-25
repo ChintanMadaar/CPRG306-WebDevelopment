@@ -36,7 +36,7 @@ export default function ItemList({ items, onItemSelect }) {
               name={item.name}
               quantity={item.quantity}
               category={item.category}
-              onSelect={() => onItemSelect(item)} // Pass item to onItemSelect
+              onSelect={() => onItemSelect(item)} 
             />
           ))}
         </ul>
@@ -77,7 +77,7 @@ export default function ItemList({ items, onItemSelect }) {
               name={item.name}
               quantity={item.quantity}
               category={item.category}
-              onSelect={() => onItemSelect(item)} // Pass item to onItemSelect
+              onSelect={() => onItemSelect(item)} 
             />
           ))}
         </ul>
